@@ -13,3 +13,13 @@
 /* Clarity and WOW details */
 .nav-cta span{color:#fff}.intro h2,.calc-layout h2,.section-heading h2,.legal h2,.offer h2,.faq h2{color:var(--ink)}.product-price{font-size:30px;color:var(--green);letter-spacing:-.05em;margin:22px 0}.intro-main h2{max-width:650px}.energy-flow{display:flex;align-items:center;gap:14px;margin-top:34px}.energy-flow>div{min-width:115px;padding:15px 14px;background:#102d24;border:1px solid #2c5744;border-radius:5px}.energy-flow span{display:block;color:var(--green);font-size:10px;font-weight:800;letter-spacing:.12em}.energy-flow strong{display:block;margin:8px 0 3px;font-size:15px}.energy-flow small{display:block;color:#8da397;font-size:10px;line-height:1.35}.energy-flow i{font-style:normal;color:var(--green);font-size:22px}.offer-highlights{display:grid;gap:12px;margin-top:28px}.offer-highlights div{display:grid;grid-template-columns:30px 1fr;column-gap:10px;align-items:center}.offer-highlights span{grid-row:span 2;color:var(--green);font-size:10px;font-weight:800}.offer-highlights strong{font-size:13px}.offer-highlights small{color:#8da397;font-size:10px}.legal h2{color:var(--ink)}
 @media(max-width:800px){.energy-flow{gap:5px}.energy-flow>div{min-width:0;flex:1;padding:12px 8px}.energy-flow i{font-size:15px}.offer-highlights{margin-top:22px}}
+
+/* Electric green / soft glow pass */
+:root{--green:#b8ff68;--orange:#b8ff68;--cream:#050f0c;--mint:#0b2119;--line:#28513b}
+body{background:radial-gradient(circle at 74% 8%,#153b2580 0,#050f0c 38%),var(--cream)}
+.nav-cta,.button.primary,.button.light{box-shadow:0 0 0 1px #b8ff6840,0 0 24px #8eea4938}.nav-cta:hover,.button.primary:hover,.button.light:hover{box-shadow:0 0 0 1px #d5ff9d,0 0 30px #9df25b80;filter:brightness(1.08)}
+.hero-art{border-color:#6aa34b;box-shadow:0 0 0 1px #b8ff6820,0 24px 60px #000b,0 0 46px #4baf4b25}.hero-art:after{background:linear-gradient(180deg,#071b1628 20%,#050f0ce0 100%)}
+.photo-badge{border-color:#b8ff68;box-shadow:0 0 22px #8eea4948}.section-label,.eyebrow{color:#9bdc70}.eyebrow-dot,.live-dot{box-shadow:0 0 12px #ff7b55}
+.result-card{box-shadow:0 0 0 1px #b8ff6820,16px 16px 0 #153d29,0 0 35px #5ea84728}.result-card>strong{color:var(--green);text-shadow:0 0 24px #9df25b45}.calc-card:focus-within{border-color:var(--green);box-shadow:0 0 24px #7ec34a20}.energy-flow>div{box-shadow:inset 0 0 20px #7bce3c0d}.energy-flow span,.energy-flow i,.offer-highlights span{ text-shadow:0 0 14px #b8ff68a0}
+.product-card.mint{box-shadow:inset 0 0 38px #71d34912,0 0 28px #55af5530}.product-price{color:var(--green);text-shadow:0 0 18px #a0f85b35}.legal-card{box-shadow:inset 0 0 30px #66cb4610}.footer{background:#020806}
+@media(max-width:800px){.result-card{box-shadow:0 0 0 1px #b8ff6820,9px 9px 0 #153d29,0 0 25px #5ea84728}}
