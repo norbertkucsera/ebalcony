@@ -55,10 +55,10 @@ export default function Home() {
           <div className="hero-actions"><a className="button primary" href="#calculator">Calculează economia <span>↓</span></a><a className="text-link" href="#cum-functioneaza">Vezi cum funcționează <span>→</span></a></div>
           <div className="trust-row"><div className="avatars"><span>A</span><span>M</span><span>R</span></div><p><strong>Primele locuri pentru testare</strong><br />Înscrie-te și află dacă balconul tău este potrivit.</p></div>
         </div>
-        <div className="hero-art" aria-label="Panou solar montat pe un balcon, fotografie ilustrativă">
-          <div className="sun">☼</div><div className="building"><div className="window w1" /><div className="window w2" /><div className="window w3" /><div className="window w4" /><div className="balcony" /></div>
-          <div className="panel-card"><div className="panel-grid">{Array.from({ length: 18 }).map((_, i) => <i key={i} />)}</div><strong>800 W</strong><span>putere maximă</span></div>
-          <div className="art-caption"><span className="live-dot" /> Concept de instalare · România</div>
+        <div className="hero-art" aria-label="Panou solar montat pe un balcon, fotografie realistă">
+          <img src="/hero-balcony.png" alt="Două panouri solare montate pe balustrada unui balcon modern" />
+          <div className="photo-badge"><span>◒</span><strong>800 W</strong><small>balcony solar</small></div>
+          <div className="art-caption"><span className="live-dot" /> Fotografie de concept · România</div>
         </div>
       </section>
 
